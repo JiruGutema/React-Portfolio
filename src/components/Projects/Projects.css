@@ -1,0 +1,49 @@
+.innerProjects {
+  width: 70%;
+  margin: auto;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.buttons button {
+  padding: 20px 40px;
+  margin: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.buttons button:hover {
+  background-color: gray;
+  color: white;
+  box-shadow: 0 0 15px lightskyblue;
+  border: none;
+  transition: ease 1s;
+}
+.projectCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projectCards a {
+  color: dodgerblue;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid green;
+  padding: 5px;
+}
+.projectCards a:hover {
+  background-color: lightskyblue;
+  transition: ease 1s;
+  color: white;
+}
+@media (min-width: 768px) {
+  .innerProjects {
+    width: 90%;
+    max-width: 1200px;
+  }
+}

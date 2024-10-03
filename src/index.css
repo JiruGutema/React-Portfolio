@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "monospace";
+  min-width: 485px;
+}
+p {
+  color: gray;
+  line-height: 2;
+}
+.bannerContainer p {
+  color: white;
+}
+
+/* body::-webkit-scrollbar {
+  width: 4px;
+  border: 4px dotted rgb(247, 61, 5);
+} */

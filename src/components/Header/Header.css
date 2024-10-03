@@ -1,0 +1,78 @@
+header {
+  width: 100%;
+  background-color: #333333;
+  z-index: 10;
+  font-size: 16px;
+  box-shadow: 0 0 15px rgb(75, 73, 73);
+}
+header > div {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  width: 80%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  list-style: none;
+}
+.menuName {
+  display: none;
+}
+header ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+header ul li {
+  padding: 5px;
+}
+header div img {
+  width: 80%;
+  max-width: 300px;
+  user-select: none;
+}
+.header ul li:hover {
+  transition: ease 0.7s;
+  text-shadow: 0 0 15px lightseagreen;
+
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .menu {
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .menuListing {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    background-color: #333333;
+    left: 0;
+  }
+  .menuListing li {
+    margin: 8px 10%;
+  }
+  .menuListing li:hover a {
+    color: aqua;
+    display: inline-block;
+  }
+  .menuName {
+    display: flex;
+    color: white;
+
+    margin: 0;
+    font-size: 16px;
+    justify-content: center;
+  }
+}

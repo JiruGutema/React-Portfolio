@@ -1,0 +1,37 @@
+.bannerContainer {
+  display: flex;
+  background-image: url("../../assets/images/bg_1dd.jpg");
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.bannerTextContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  width: 100%;
+
+  text-align: center;
+}
+
+.bannerTextContainer * {
+  padding: 5px;
+  display: block;
+  margin: 5px;
+}
+
+.bannerContainer > div {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@media (min-width: 768px) {
+  .bannerTextContainer {
+    top: 50%;
+  }
+}

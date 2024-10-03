@@ -1,0 +1,75 @@
+.Testimony {
+  background-color: lightseagreen;
+  box-shadow: 0 0 15px lightskyblue;
+  width: 350px;
+  height: 350px;
+  min-width: 250px;
+  overflow: auto;
+  padding: 10px;
+  color: white;
+  margin: 10px;
+  overflow-x: hidden;
+}
+.Testimony:hover img {
+  transform: scale(1.3);
+  transition: ease 1s;
+}
+.Testimony:hover p {
+  font-size: 13px;
+  font-weight: bold;
+  transition: ease 1s;
+}
+.Testimony:hover {
+  box-shadow: 0 0 15px dodgerblue;
+}
+.Testimony::-webkit-scrollbar {
+  width: 4px;
+  border: 2px solid rgb(5, 230, 247);
+}
+.TestimonyContainer {
+  background-color: lightgray;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.Testimony img {
+  display: flex;
+  border-radius: 50%;
+  object-fit: contain;
+  overflow: hidden;
+  width: 100px;
+  margin: auto;
+  margin-top: 9px;
+}
+.Testimony p {
+  font-size: 10px;
+  color: white;
+  font-style: italic;
+}
+.Testimony > div {
+  text-align: center;
+}
+.TestimonyCardContainer {
+  width: 70%;
+  margin: auto;
+  gap: 20px;
+  display: flex;
+  overflow-x: auto;
+  justify-content: start;
+}
+/* .TestimonyCardContainer::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  border: 2px solid gold;
+} */
+.paraLink {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  .TestimonyCardContainer {
+    width: 90%;
+    max-width: 1200px;
+  }
+}
