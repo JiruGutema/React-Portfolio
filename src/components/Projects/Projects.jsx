@@ -78,8 +78,9 @@ function Projects() {
               title="My Own Portfolio"
               para="I built my own portfolio using React to showcase my skills and projects, reflecting my journey as a developer. It highlights my creativity and technical expertise, making it easy for potential clients and employers to see what I can offer."
               link="https://jirugutema.netlify.app"
-              linkTitle="Check it on Github"
+              linkTitle="Github"
               classname="portfolio card"
+              alt="I built my own portfolio using React to showcase my skills and projects..."
             />
             <Card
               title="GDSC Trainer"
@@ -88,36 +89,41 @@ function Projects() {
               linkTitle="Certification"
               classname="GDSC card"
               download
+              alt="I received a trainer certificate from Google Developer Student Club (GDSC)..."
             />
 
             <Card
               title="Game Landing Page,Static Website for Coffee Exporting "
               para="I built my own portfolio using React to showcase my skills and projects, reflecting my journey as a developer. It highlights my creativity and technical expertise, making it easy for potential clients and employers to see what I can offer."
               link="http://guragevrstudio.netlify.app/"
-              linkTitle="Go To Game"
+              linkTitle="Play Game"
               classname="landingPage card"
+              alt="I built my own portfolio using React to showcase my skills and projects..."
             />
 
             <Card
               title="Vulnerablity Scanner, DDOS Attack, PC System Information"
               para="Developed a vulnerability scanner and DDoS attack simulation tool in Python during a summer camp program at INSA Ethiopia, focusing on identifying security vulnerabilities and displaying PC system information."
               link="https://github.com/JiruGutema/Python-Valnerablity-Scanner"
-              linkTitle="Check It Out"
+              linkTitle="Github"
               classname="Scanner card"
+              alt="Developed a vulnerability scanner and DDoS attack simulation tool in Python..."
             />
             <Card
-              title="File Encryption Software.  ONGOING..."
+              title="File Encryption Software."
               para="This File Encryption Software uses cryptography to securely encrypt and decrypt files. By employing robust encryption algorithms, the software ensures the confidentiality and integrity of sensitive information. The encrypted files can only be unlocked using a secure key, making it an ideal solution for protecting personal or business data."
               link="https://github.com/JiruGutema/file-encryption-"
-              linkTitle="Check It Out"
+              linkTitle="Github"
               classname="file-Encryption card"
+              alt="This File Encryption Software uses cryptography to securely encrypt and decrypt files..."
             />
             <Card
               title="Data Structure and Algorithms"
-              para="I took an introduction to Data structre and algorithms at Addis Ababa Univerity. I have solved a lot of problems on a"
+              para="I took an introduction to Data structre and algorithms at Addis Ababa Univerity. I have solved a lot of problems on a Leetcode. You can see my achievements below using the given Link to my profile on leetcode."
               link="https://leetcode.com/u/Jiru_Gutema/"
-              linkTitle="Go To Leetcode"
+              linkTitle="Leetcode"
               classname="dsa card"
+              alt="I took an introduction to Data structre and algorithms at Addis Ababa Univerity..."
             />
           </div>
         </div>

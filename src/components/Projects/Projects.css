@@ -29,12 +29,30 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.projectCards a {
+.projectCards a,
+.show-btn {
   color: dodgerblue;
   font-weight: bold;
   text-decoration: none;
-  border: 2px solid green;
-  padding: 5px;
+}
+.projectCards a {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.show-btn {
+  background-color: green;
+  width: 100%;
+  color: white;
+  height: 30px;
+  margin-bottom: 10px;
+  padding: 20 40px;
+  border: none;
+  cursor: pointer;
+}
+.paragraphContainer p {
+  margin-bottom: 0;
 }
 .projectCards a:hover {
   background-color: lightskyblue;
@@ -45,5 +63,13 @@
   .innerProjects {
     width: 90%;
     max-width: 1200px;
+  }
+  .show-btn {
+    width: 100px;
+  }
+  .projectCards a {
+    text-align: start;
+    font-size: 20px;
+    margin-top: 5px;
   }
 }

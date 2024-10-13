@@ -3,8 +3,8 @@
   background-color: white;
   margin: 15px;
   padding: 15px;
-  width: 20%;
-  min-width: 250px;
+  width: 220px;
+
   height: 400px;
   box-shadow: 0 0 15px lightslategray;
   overflow: auto;
@@ -19,4 +19,15 @@
 }
 .cardIcon {
   width: 80px;
+}
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  .cards {
+    width: 100%;
+  }
+  .services {
+    width: 100%;
+  }
 }

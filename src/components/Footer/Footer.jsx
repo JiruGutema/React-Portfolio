@@ -5,17 +5,13 @@ import github from "../../assets/github.png";
 import instagram from "../../assets/instagram.png";
 import linkedin from "../../assets/linkedin.png";
 import x from "../../assets/x.png";
+import email from "../../assets/envelope-solid.svg";
 import telegram from "../../assets/telegram.png";
 
 function Footer() {
   return (
     <>
       <footer className="footer">
-        <div className="workingWithUs">
-          <p>Interested to Work With Me? Drop Me a Line</p>
-          <p className="emailAddress">jethior1@gmail.com</p>
-        </div>
-
         <div className="social">
           <div className="socialConnection">
             <ul>
@@ -29,6 +25,12 @@ function Footer() {
                 <a href="https://www.linkedin.com/in/jiru-gutema/">
                   {" "}
                   <img src={linkedin} alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="mailto:jethior1@gmail.com">
+                  {" "}
+                  <img src={email} alt="" />
                 </a>
               </li>
 
@@ -85,8 +87,6 @@ function Footer() {
         <div className="copyright">
           <p>&copy; 2024 Jiren. All Rights Reserved. </p>
         </div>
-
-        <img src="" alt="" />
       </footer>
     </>
   );

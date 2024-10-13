@@ -1,9 +1,10 @@
 .services {
   width: 100%;
   background-color: lightgray;
+}
+.cardIcon {
   text-align: center;
 }
-
 .services > div {
   width: 70%;
   max-width: 1200px;
