@@ -31,6 +31,10 @@
   max-width: 440px;
   max-height: 660px;
 }
+.aboutImage div img:hover {
+  transform: scale(1.2);
+  transition: ease 2s;
+}
 .aboutText button {
   padding: 20px 30px;
   margin-bottom: 50px;

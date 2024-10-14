@@ -49,6 +49,7 @@ function Services() {
               path={More}
               title="And the More"
               para="While the above information are just a tip of icebergs from my skills, i am also skilled in Database, Git and Github, Application Softwares and the like."
+              alt="Not only this one , if you want..."
             />
           </div>
         </div>

@@ -26,8 +26,11 @@ function Header() {
     } else if (target.style.display === "flex" && width <= 768) {
       console.log("Condition 2 met: Hiding menu");
       target.style.display = "none";
+      target.style.opacity = "100%";
     } else {
       target.style.display = "flex";
+
+      target.style.opacity = "50%";
     }
   }
 

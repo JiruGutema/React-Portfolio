@@ -25,9 +25,14 @@
   transition: ease 1s;
 }
 .projectCards {
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  justify-content: center;
+  margin-right: -15px;
+  margin-left: -15px;
+  gap: 10px;
+  padding-left: 10%;
 }
 .projectCards a,
 .show-btn {
@@ -71,5 +76,10 @@
     text-align: start;
     font-size: 20px;
     margin-top: 5px;
+  }
+  .projectCards {
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
   }
 }

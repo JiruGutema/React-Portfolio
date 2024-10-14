@@ -13,9 +13,12 @@
 }
 .cards {
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: auto;
-  justify-content: space-evenly;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-left: 10%;
+  gap: 10px;
 }
 
 @media (min-width: 768px) {
