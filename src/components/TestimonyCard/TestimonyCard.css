@@ -1,12 +1,12 @@
 .Testimony {
-  background-color: lightseagreen;
+  background-color: white;
   box-shadow: 0 0 15px lightskyblue;
   width: 350px;
   height: 350px;
   min-width: 250px;
   overflow: auto;
   padding: 10px;
-  color: white;
+  color: black;
   margin: 10px;
   overflow-x: hidden;
 }
@@ -44,7 +44,7 @@
 }
 .Testimony p {
   font-size: 10px;
-  color: white;
+  color: #333333;
   font-style: italic;
 }
 .Testimony > div {
